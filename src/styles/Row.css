@@ -1,0 +1,18 @@
+tr td {
+  text-align: center;
+  padding: 0.5rem;
+  font-weight: 500;
+}
+
+td:first-child {
+  border-radius: 10px 0px 0px 10px;
+}
+
+td:last-child {
+  border-radius: 0px 10px 10px 0px;
+}
+
+tr.selected td {
+  background-color: rgb(170, 133, 133);
+  color: white;
+}
